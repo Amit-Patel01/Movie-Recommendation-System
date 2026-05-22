@@ -1,0 +1,13 @@
+{
+  "remote.autoForwardPorts": true,
+  "remote.portsAttributes": {
+    "5000": {
+      "label": "Movie API",
+      "onAutoForward": "notify"
+    },
+    "5173": {
+      "label": "Movie Frontend",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyc.*
+.venv/
+.env
+backend/tmp/
+backend/tmp
+
+
+# ML artifacts and datasets
+backend/models/*.pkl
+backend/data/ml-*/
+backend/data/*.csv
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Logs and local OS files
+*.log
+.DS_Store
+Thumbs.db
+
